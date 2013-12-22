@@ -1,7 +1,11 @@
 <template name="taskItem">
-	<div style="background:{{color}}" class="task">
-		<div ><h3><a type="button" href="{{taskPagePath this}}">{{title}}</a></div>
-		
-		
-	</div>
+	
+	<tr>
+		<td>{{title}}</td>
+		<td>{{description}}</td>
+		<td>{{priority}}
+		<td><a type="button" href="{{taskPagePath this}}">View</a>
+	</tr>
+	
+
 </template>

@@ -1,7 +1,7 @@
 .taskbox{
 	border:1px solid black;
 	overflow:auto;
-	height:200px;
+	height:350px;
 }
 
 .task{
