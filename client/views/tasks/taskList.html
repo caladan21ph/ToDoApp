@@ -1,0 +1,12 @@
+<template name="taskList">
+	<div class="tasks">
+		<h1>Tasks</h1>
+		<a class="btn btn-default" href="/new" id="new-task">New Task</a>
+		<div class="taskbox">
+			{{#each tasks}}
+				{{>taskItem}}
+			{{/each}}
+		</div>
+		
+	</div>
+</template>

@@ -1,0 +1,14 @@
+<template name="taskPage">
+	{{#with currentPost}}
+	<div class=".panel-heading">
+	  <div class="panel-heading">
+		  <h1>{{title}}</h1>
+	    
+	  </div>
+	  <div class="panel-body">
+		  <textarea name="description" style="width:500px;height:300px" disabled="">{{description}}</textarea>
+	  </div>
+	  <button type="button" class="btn btn-default">Edit</button>
+	</div>
+	{{/with}}
+</template>
